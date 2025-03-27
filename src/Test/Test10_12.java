@@ -5,7 +5,7 @@ class Person {
 	public Person(String val) {
 		name = val;
 	}
-	public static String get() {
+	public String get() {
 		return name;
 	}
 	public void print() {
