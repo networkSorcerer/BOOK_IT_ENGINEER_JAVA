@@ -1,10 +1,10 @@
 package Test;
-class Connection {
-	private static Connection _inst = null;
+class Connection123123 {
+	private static Connection123123 _inst = null;
 	private int count = 0;
-	static public Connection get() {
+	static public Connection123123 get() {
 		if(_inst == null) {
-			_inst = new Connection();
+			_inst = new Connection123123();
 			return _inst;
 		}
 		return _inst;
@@ -18,11 +18,11 @@ class Connection {
 }
 public class Test2024_1 {
 	public static void main(String []args) {
-		Connection conn1 = Connection.get();
+		Connection123123 conn1 = Connection123123.get();
 		conn1.count();
-		Connection conn2 = Connection.get();
+		Connection123123 conn2 = Connection123123.get();
 		conn2.count();
-		Connection conn3 = Connection.get();
+		Connection123123 conn3 = Connection123123.get();
 		conn3.count();
 		conn1.count();
 		System.out.print(conn1.getCount());
